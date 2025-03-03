@@ -1,0 +1,27 @@
+{
+  "name": "apple-notes-mcp",
+  "version": "1.0.0",
+  "author": "Rafal Wilinski",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.9",
+    "@huggingface/transformers": "^2.6.2",
+    "@lancedb/lancedb": "^0.4.10",
+    "@modelcontextprotocol/sdk": "^0.0.5",
+    "apache-arrow": "^14.0.2",
+    "run-jxa": "^3.0.0",
+    "turndown": "^7.1.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/turndown": "^5.0.4",
+    "typescript": "^5.3.3"
+  },
+  "license": "MIT"
+}
